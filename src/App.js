@@ -10,8 +10,8 @@ import NavBar from './component/NavBar';
 
 
 import home from './Pages/home';
-import login from './Pages/login';
 import signup from './Pages/signup';
+import login from './Pages/login';
 
 
 const theme = createMuiTheme({
@@ -28,7 +28,7 @@ const theme = createMuiTheme({
       dark : '#b22a00',
       contrastText : '#fff'
     }
-  }
+  },
 });
 class App extends Component {
   render() {
